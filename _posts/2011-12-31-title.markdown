@@ -1,6 +1,7 @@
 ---
-title: Hello HomeLab
-date: 2022-05-23 12:00:00 -500
+layout: post
+title: "Title"
+date: 2014-04-30
 categories: [homelab,hardware]
 tags: [servers,dell,hp,supermicro]
 ---
