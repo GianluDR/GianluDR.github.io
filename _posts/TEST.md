@@ -8,7 +8,7 @@ tags: [C#,Unity,Aseprite]
 
 # Welcome
 Hello and welcome to my homelab docs site!
-
+![image tooltip here](/assets/image.jpg)
 ## Hardware
 
 Pinco pallino è figo
