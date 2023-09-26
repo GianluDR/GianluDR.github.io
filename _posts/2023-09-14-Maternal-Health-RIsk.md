@@ -17,5 +17,4 @@ Key Components and Technologies:
 * Knowledge-based Expert System: Integrated a system that utilized a knowledge base to simulate human expertise, aiding in the evaluation of health risks.
 * Learning Algorithms (Supervised and Unsupervised): Employed diverse learning algorithms to enhance the accuracy and effectiveness of the risk assessment process.
 
-Further insights can be found in the github repository.
-[Link text](https://github.com/GianluDR/MaternalHealthRisk)
+Further insights can be found in the github repository [here](https://github.com/GianluDR/MaternalHealthRisk).
