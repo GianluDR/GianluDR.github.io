@@ -18,4 +18,4 @@ Key Components and Technologies:
 * Learning Algorithms (Supervised and Unsupervised): Employed diverse learning algorithms to enhance the accuracy and effectiveness of the risk assessment process.
 
 Further insights can be found in the github repository.
-LINK
+[Link text](https://github.com/GianluDR/MaternalHealthRisk)
