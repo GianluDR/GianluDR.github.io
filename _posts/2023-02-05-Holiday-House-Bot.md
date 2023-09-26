@@ -6,35 +6,24 @@ categories: [University,GroupProject]
 tags: [Javascript,Nodejs,Dialogflow]
 ---
 
-# Welcome
-Hello and welcome to my homelab docs site!
+# Holiday House Telegram Bot
+University Group Project - Development of a Chatbot for Home Automation Vacation Home Management.
 
-## Hardware
+Our goal was to provide users with a virtual assistant that could facilitate the management of their vacation homes and offer recommendations on nearby restaurants, bars, and other places of interest.
 
-Pinco pallino è figo
+Technologies Used:
 
-* one
-* two
-* three
-* four
+* JavaScript: Frontend development and user interface interaction logic.
+* Dialogflow: Use of Dialogflow, a development framework for chatbots, to implement the conversational system.
+* Geolocation API: Integration of geolocation API to provide accurate information about nearby places of interest.
+* JSON for Database: Use of JSON files for database data management and organization.
+* Node.js: Implementing the Node.js runtime environment to execute JavaScript code on the server.
+* This experience allowed me to gain valuable skills in teamwork, collaboration, and integration of different technologies to create a functional, user-centered product.
 
-```javascript
-console.log('hello world!')
-```
+PLEASE NOTE to test the application use aaa001,aaa002,aaa003,aaa004,aaa005 as the house code.
 
-```yml
-name: 'push-remote'
+* A short presentation of the case study and the technologies used is given in the file 'CasaVacanzaPresentazione'(Language: Italian).
 
-on:
-    push:
-        branches:
-            - master
-        path-ignore:
-            - .gitignore
-            - README.md
-            - LICENSE
-```
+* The agent created with dialogflow is inside the zipper 'CasaVacanzaAgente'
 
-## Photos
-![img-description](https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png)
-_my Lab_
+* The application is inside the bot folder

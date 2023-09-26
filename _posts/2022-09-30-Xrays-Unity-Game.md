@@ -6,35 +6,22 @@ categories: [University,GroupProject]
 tags: [C#,Unity,Aseprite]
 ---
 
-# Welcome
-Hello and welcome to my homelab docs site!
+# X-Rays Project
+University Group Project: Unity Video Game - X-Rays: A Dystopian RPG Adventure.
 
-## Hardware
+### Pitch:
+X-Rays é un’Action-Adventure Dystopian RPG, con l’intento di unire l’emozione della sopravvivenza con la curiositá, innata in ognuno di noi, di esplorare e interagire con vari personaggi durante tutto il viaggio.
+Situato in un’epoca temporale fittizia in cui la terra si sta ancora ripristinando dal suo primo conflitto globale nucleare, i giocatori prendono il controllo di dieci sopravvissuti, originariamente prigionieri, spediti sulla terra come “sonde umane”, che dovranno scoprire le conspirazioni dietro tutto l’accaduto e il mondo devastato in cui dovranno ormai vivere.
+Per anni e anni, la razza umana ha dovuto combattere e sopravvivere in una stazione spaziale, senza peró sapere cosa gli avrebbe aspettato sulla loro terra natia: piante geneticamente modificate, animali e umani ormai diventati mostri sono pronti a mettere in pericolo “I 10” e cambiargli la vita completamente.
 
-Pinco pallino è figo
+X-Rays is an Action-Adventure Dystopian RPG, aiming to combine the thrill of survival with the curiosity, innate in everyone, to explore and interact with various characters throughout the journey. Set in a fictional time epoch in which the earth is still recovering from its first global nuclear conflict, players take control of ten survivors, originally prisoners, sent to earth as "human probes," who must uncover the conspiracies behind all that has happened and the devastated world in which they must now live. For years and years, the human race has had to fight and survive in a space station, but without knowing what would await them on their homeland: genetically modified plants, animals and humans now turned monsters are ready to endanger "The 10" and change their lives completely.
 
-* one
-* two
-* three
-* four
+### Link Game Download:
+https://www.mediafire.com/file/hynnd5hgvzlxmtq/Build.zip/file
 
-```javascript
-console.log('hello world!')
-```
+### Game Trailer Download+Youtube: 
+https://www.mediafire.com/file/qfxthsh59eoz7f3/Trailer.rar/file
+https://www.youtube.com/watch?v=TCWWp8SQUlM
 
-```yml
-name: 'push-remote'
-
-on:
-    push:
-        branches:
-            - master
-        path-ignore:
-            - .gitignore
-            - README.md
-            - LICENSE
-```
-
-## Photos
-![img-description](https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png)
-_my Lab_
+### Game Presentation PPT(Language: Italian):
+https://www.mediafire.com/file/r5gzxpxpegyzcsc/X-Rays_Presentazione_Fiera.pptx/file
