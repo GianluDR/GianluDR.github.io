@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Development of a Maternal Health Support Application"
+title: "Maternal Health Support Application"
 date: 2023-09-14
 categories: [University,GroupProject]
 tags: [Python,Experta]

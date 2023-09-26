@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Development of a Chatbot for Home Automation Vacation Home Management"
+title: "Chatbot for Home Assistant"
 date: 2023-02-05
 categories: [University,GroupProject]
 tags: [Javascript,Nodejs,Dialogflow]
