@@ -4,6 +4,8 @@ title: "XRays Unity Game"
 date: 2022-09-30
 categories: [University,GroupProject]
 tags: [C#,Unity,Aseprite]
+image:
+  path: /assets/image.jpg
 ---
 
 ![image tooltip here](/assets/image.jpg)
