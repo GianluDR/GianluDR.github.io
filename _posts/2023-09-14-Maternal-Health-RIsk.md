@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Maternal Health Risk"
+title: "Development of a Maternal Health Support Application"
 date: 2023-09-14
 categories: [University,GroupProject]
 tags: [Python,Experta]
 ---
-
-# Development of a Maternal Health Support Application
 
 During this university project, our team focused on developing an application aimed at providing crucial support to women during the maternity period. The primary objective was to help them recognize and understand potential health risks for both themselves and their infants, especially in regions with limited access to healthcare services. To achieve this, we leveraged a comprehensive dataset derived from IoT devices deployed in hospitals and clinics across rural areas in Bangladesh.
 
@@ -19,4 +17,5 @@ Key Components and Technologies:
 * Knowledge-based Expert System: Integrated a system that utilized a knowledge base to simulate human expertise, aiding in the evaluation of health risks.
 * Learning Algorithms (Supervised and Unsupervised): Employed diverse learning algorithms to enhance the accuracy and effectiveness of the risk assessment process.
 
-Further insights can be found in the pdf in the repository(Language: Italian).
+Further insights can be found in the github repository.
+LINK

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Holiday House - Telegram bot"
+title: "Development of a Chatbot for Home Automation Vacation Home Management"
 date: 2023-02-05
 categories: [University,GroupProject]
 tags: [Javascript,Nodejs,Dialogflow]
 ---
-
-# Development of a Chatbot for Home Automation Vacation Home Management.
 
 Our goal was to provide users with a virtual assistant that could facilitate the management of their vacation homes and offer recommendations on nearby restaurants, bars, and other places of interest.
 
@@ -19,10 +17,5 @@ Technologies Used:
 * Node.js: Implementing the Node.js runtime environment to execute JavaScript code on the server.
 * This experience allowed me to gain valuable skills in teamwork, collaboration, and integration of different technologies to create a functional, user-centered product.
 
-PLEASE NOTE to test the application use aaa001,aaa002,aaa003,aaa004,aaa005 as the house code.
-
-* A short presentation of the case study and the technologies used is given in the file 'CasaVacanzaPresentazione'(Language: Italian).
-
-* The agent created with dialogflow is inside the zipper 'CasaVacanzaAgente'
-
-* The application is inside the bot folder
+Further insights can be found in the github repository.
+LINK
