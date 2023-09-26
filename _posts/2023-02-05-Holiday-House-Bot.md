@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Holiday House Bot"
+title: "Holiday House - Telegram bot"
 date: 2023-02-05
 categories: [University,GroupProject]
 tags: [Javascript,Nodejs,Dialogflow]
 ---
 
-# Holiday House Telegram Bot
-University Group Project - Development of a Chatbot for Home Automation Vacation Home Management.
+# Development of a Chatbot for Home Automation Vacation Home Management.
 
 Our goal was to provide users with a virtual assistant that could facilitate the management of their vacation homes and offer recommendations on nearby restaurants, bars, and other places of interest.
 

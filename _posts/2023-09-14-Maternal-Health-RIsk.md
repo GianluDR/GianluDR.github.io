@@ -6,8 +6,7 @@ categories: [University,GroupProject]
 tags: [Python,Experta]
 ---
 
-# MaternalHealthRisk
-University Group Project - Development of a Maternal Health Support Application
+# Development of a Maternal Health Support Application
 
 During this university project, our team focused on developing an application aimed at providing crucial support to women during the maternity period. The primary objective was to help them recognize and understand potential health risks for both themselves and their infants, especially in regions with limited access to healthcare services. To achieve this, we leveraged a comprehensive dataset derived from IoT devices deployed in hospitals and clinics across rural areas in Bangladesh.
 
