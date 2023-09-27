@@ -22,7 +22,6 @@ Astro Maze is a **puzzle-arcade** game with platforming and roguelike elements t
 This game presented a significant challenge that made me put a lot of effort into **optimization** and in-depth understanding of **procedural generation algorithms**.
 
 Developing this game independently was fun and educational. However, I find that working in a **group is better**. It allows you to share ideas, manage the workload better, and learn by collaborating with others.
-
 <img src="/assets/eventFog.gif" width="30%" height="30%">
 
 ### Procedural Generation
