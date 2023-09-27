@@ -10,9 +10,38 @@ image:
   alt: Gameplay scene.
 ---
 
-Astro Maze is a puzzle-arcade game with platforming and roguelike elements that challenges the player to solve as many rooms as possible in the shortest amount of time. The game features neon-space themes, where the player is trapped in this vast labyrinth of procedurally generated rooms. Will they manage to escape before the black hole engulfs the maze? The game is straightforward, whether in normal or hardcore mode: you are immediately thrust into a puzzle inside a small room. As you solve various rooms, they progressively become larger, making puzzle-solving more complex. However, you must also keep an eye on the remaining time, indicated by a bar at the top of the screen. If time runs out, it's game over, and you'll have to start over. While solving the puzzles, you can find small trophies that provide a slight amount of extra time. Additionally, you can collect several of these to increase your score. However, the real reward comes from solving the puzzles themselves, which grants you a significantly larger amount of time. The objective of the game is to try to solve as many rooms as possible without dying, making the most out of the time at your disposal.
+## About
+Astro Maze is a **puzzle-arcade** game with platforming and roguelike elements that challenges the player to solve as many **procedurally generated mazes** as possible in the shortest amount of time. Will they manage to escape before the black hole engulfs the maze?  
 
-This thesis work was an individual work that allowed me to explore deeper into the field of video game development. The game involved the use of procedural generation algorithms, the central topic of my thesis. I intentionally left out graphical complexity to prioritize the creation of original and engaging gameplay, inspired by the small ice mazes of the old Pokémon games. Astro Maze was an ideal platform to apply the knowledge and skills acquired during my academic journey. The experience enriched me tremendously, providing me with a comprehensive understanding of procedural algorithms and their role in creating dynamic gameplay. In addition, I conducted a playtesting session of the game using the GEQ (Game Experience Questionnaire), gathering valuable feedback and insights from multiple people who have experienced Astro Maze. This playtesting process allowed me to gain a deeper understanding of how players interacted with the game, their overall experience, and the specific aspects of gameplay they most liked or disliked. The feedback obtained through the GEQ was crucial in refining and improving the game, resulting in a fun and engaging gameplay experience in line with the goals of my thesis research.
+# Project info
+**👤 Role:**  Game programmer  
+**👥 Team size:**  1  
+**⏱︎Time frame:**  3 months  
+**⚒︎ Engine:**  Unity(C#)
 
-Further insights can be found in the github repository.
+This game presented a significant challenge that made me put a lot of effort into **optimization** and in-depth understanding of **procedural generation algorithms**.
+
+Developing this game independently was fun and educational. However, I find that working in a **group is better**. It allows you to share ideas, manage the workload better, and learn by collaborating with others.
+
+![img-description](/assets/gameplay.gif)
+<img src="/assets/gameplay.gif" width="30%" height="30%">
+
+## Procedural Generation
+To create an always solvable puzzle with minimal time complexity, I approached the maze as a tree structure. The starting position of the player served as the root, and reachable positions from that point were considered the leaves. I implemented a specialized **Breadth-First Search (BFS)** algorithm incorporating an **explored set**.
+
+![img-description](/assets/maze2.png)
+The algorithm begins by searching the first reachable positions and adds them to a queue, ensuring to check against the explored set to avoid redundancy. It continues this process until the queue is empty or the goal is achieved.
+
+![img-description](/assets/maze3.png)
+In parallel, the algorithm's second part involves strategically placing walls in positions that are not reachable by the player. This technique enhances the overall map layout, ensuring a more engaging gameplay experience.
+
+
+## Movement physics
+Implementing smooth and intuitive movement mechanics was another crucial aspect of the project. I introduced limitations on movement dynamics to ensure the experience i envisioned. When the player initiates movement, they cannot immediately change direction; however, they can queue the next move. Once the player-directed cube reaches a wall, the next queued move is executed, or if the player inputs a new move, the cube responds by moving in that specified direction. 
+
+
+# What i learned
+This thesis work was an individual work that allowed me to explore the use of **procedural generation algorithms**. Astro Maze was an ideal platform to apply the knowledge and skills acquired during my academic journey. The experience enriched me tremendously, providing me with a comprehensive understanding of procedural algorithms and their role in creating dynamic gameplay. In addition, I conducted a playtesting session of the game using the **GEQ (Game Experience Questionnaire)**, this process allowed me to gain a deeper understanding of how players interacted with the game, their overall experience, and the specific aspects of gameplay they most liked or disliked.
+
+Build, source code and further insights can be found in the github repository.
 LINK
