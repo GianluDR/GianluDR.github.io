@@ -22,6 +22,6 @@ Our goal was to provide users with a virtual assistant that could facilitate the
 * **Node.js:** Implementing the Node.js runtime environment to execute JavaScript code on the server.
 
 # What i learned
-This experience allowed me to gain valuable skills in **teamwork, collaboration, and integration of different technologies** to create a functional, user-centered product. I learned to **create, train, and utilize an agent** that effectively communicates with a database.
+This experience allowed me to gain valuable skills in teamwork, collaboration, and integration of different technologies to create a functional, user-centered product.
 
 Further insights can be found in the github repository [here](https://github.com/GianluDR/HolidayHouseBot).

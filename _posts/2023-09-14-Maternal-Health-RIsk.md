@@ -23,6 +23,6 @@ The core functionality of the application was to recognize and assess the gravit
 * **Learning Algorithms (Supervised and Unsupervised):** Employed diverse learning algorithms to enhance the accuracy and effectiveness of the risk assessment process.
 
 # What i learned
-In this project, I gained valuable experience in **analyzing and simplifying a dataset** to utilize it with **machine learning algorithms** for predicting new data. Furthermore, I learned how to **create and utilize knowledge bases** through an **expert system**.
+piripopi
 
 Further insights can be found in the github repository [here](https://github.com/GianluDR/MaternalHealthRisk).
