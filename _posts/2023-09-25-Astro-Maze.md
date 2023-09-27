@@ -23,8 +23,9 @@ This game presented a significant challenge that made me put a lot of effort int
 
 Developing this game independently was fun and educational. However, I find that working in a **group is better**. It allows you to share ideas, manage the workload better, and learn by collaborating with others.
 
-![img-description](/assets/gameplay.gif)
-<img src="/assets/gameplay.gif" width="30%" height="30%">
+<p align="center"> 
+  <img src="/assets/gameplay.gif" width="30%" height="30%">
+</p>
 
 ## Procedural Generation
 To create an always solvable puzzle with minimal time complexity, I approached the maze as a tree structure. The starting position of the player served as the root, and reachable positions from that point were considered the leaves. I implemented a specialized **Breadth-First Search (BFS)** algorithm incorporating an **explored set**.
@@ -38,7 +39,9 @@ In parallel, the algorithm's second part involves strategically placing walls in
 
 ## Movement physics
 Implementing smooth and intuitive movement mechanics was another crucial aspect of the project. I introduced limitations on movement dynamics to ensure the experience i envisioned. When the player initiates movement, they cannot immediately change direction; however, they can queue the next move. Once the player-directed cube reaches a wall, the next queued move is executed, or if the player inputs a new move, the cube responds by moving in that specified direction. 
-
+<p align="center"> 
+  <img src="/assets/eventFog.gif" width="30%" height="30%">
+</p>
 
 # What i learned
 This thesis work was an individual work that allowed me to explore the use of **procedural generation algorithms**. Astro Maze was an ideal platform to apply the knowledge and skills acquired during my academic journey. The experience enriched me tremendously, providing me with a comprehensive understanding of procedural algorithms and their role in creating dynamic gameplay. In addition, I conducted a playtesting session of the game using the **GEQ (Game Experience Questionnaire)**, this process allowed me to gain a deeper understanding of how players interacted with the game, their overall experience, and the specific aspects of gameplay they most liked or disliked.
