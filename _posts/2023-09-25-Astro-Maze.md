@@ -40,5 +40,4 @@ Implementing smooth and intuitive movement mechanics was another crucial aspect 
 ## What i learned
 This thesis work was an individual work that allowed me to explore the use of **procedural generation algorithms**. Astro Maze was an ideal platform to apply the knowledge and skills acquired during my academic journey. The experience enriched me tremendously, providing me with a comprehensive understanding of procedural algorithms and their role in creating dynamic gameplay. In addition, I conducted a playtesting session of the game using the **GEQ (Game Experience Questionnaire)**, this process allowed me to gain a deeper understanding of how players interacted with the game, their overall experience, and the specific aspects of gameplay they most liked or disliked.
 
-Build, source code and further insights can be found in the github repository.
-LINK
+Build, source code and further insights can be found in the github repository [here](https://github.com/GianluDR/AstroMaze).
