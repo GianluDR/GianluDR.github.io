@@ -11,5 +11,4 @@ During my academic years, I further expanded my knowledge and skills by particip
 
 My enthusiasm for learning drives me to embrace new challenges eagerly, constantly seeking ways to enhance and broaden my skill set.
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+
