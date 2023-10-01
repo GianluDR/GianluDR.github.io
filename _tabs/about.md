@@ -11,7 +11,8 @@ During my academic years, I further expanded my knowledge and skills by particip
 
 My enthusiasm for learning motivates me to take on new challenges with excitement, constantly trying to improve and expand my skills.
 
-View my CV 
+View my CV [here](https://github.com/GianluDR/GianluDR.github.io/blob/main/assets/Curriculum-Vitae.pdf)
+
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
