@@ -11,7 +11,7 @@ During my academic years, I further expanded my knowledge and skills by particip
 
 My enthusiasm for learning motivates me to take on new challenges with excitement, constantly trying to improve and expand my skills.
 
-<embed src="/assets/Curriculum-Vitae.pdf" width="500" height="375" type="application/pdf">  
+<embed src="../assets/Curriculum-Vitae.pdf" width="500" height="375" type="application/pdf">  
 
 View my CV [here](https://github.com/GianluDR/GianluDR.github.io/blob/main/assets/Curriculum-Vitae.pdf)
 
