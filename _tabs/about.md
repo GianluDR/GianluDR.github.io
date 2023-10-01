@@ -9,7 +9,7 @@ Hi, my name is Gianluca Colella, I am 22 years old, and I am a junior programmer
 Throughout my academic journey, from technical high school to earning a degree in computer science, I have gained solid expertise and extensive experience in various programming languages and techniques.
 During my academic years, I further expanded my knowledge and skills by participating in a specialized course focused on utilizing Unity and C# for game development, even my thesis revolved around procedural content generation, showcasing my passion and proficiency in the field.
 
-My enthusiasm for learning drives me to embrace new challenges eagerly, constantly seeking ways to enhance and broaden my skill set.
+My enthusiasm for learning motivates me to take on new challenges with excitement, constantly trying to improve and expand my skills.
 
-> File path: `_tabs/about.md`{: .filepath }
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
