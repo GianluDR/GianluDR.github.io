@@ -15,9 +15,9 @@ Sacred Vendors is an horror stealth game freely inspired by the case of the sale
 
 ## Project info
 **👤 Role:**  Lead programmer  
-**👥 Team size:**  10
-**⏱︎Time frame:**  4 months, but not ended
-**⚒︎ Engine:**  Unreal Engine 5(C++)
+**👥 Team size:**  10  
+**⏱︎Time frame:**  4 months, but not ended  
+**⚒︎ Engine:**  Unreal Engine 5(C++)  
 
 Players live an anxious experience by impersonating a 8 y/o child with no memories who finds himself in a strange catholic environment chased by nuns, doctors and prelates. His mission is to find a way out and discover who he is and what is happening there. 
 The gameplay is based on stealth and environmental interactions mechanics.
