@@ -22,12 +22,12 @@ Astro Maze is a **puzzle-arcade** game with platforming and roguelike elements t
 This game presented a significant challenge that made me put a lot of effort into **optimization** and in-depth understanding of **procedural generation algorithms**.
 
 Developing this game independently was fun and educational. However, I find that working in a **group is better**. It allows you to share ideas, manage the workload better, and learn by collaborating with others.
-<img src="/assets/eventFog.gif" width="50%" height="50%">
+<img src="/assets/eventFog.gif" width="50%" height="50%" alt="Gameplay footage showing event fog effect in Astro Maze.">
 
 ### Procedural Generation
 To create an always solvable puzzle with minimal time complexity, I approached the maze as a tree structure. The starting position of the player served as the root, and reachable positions from that point were considered the leaves. I implemented a specialized **Breadth-First Search (BFS)** algorithm incorporating an **explored set**.
 
-<img src="/assets/maze2.png" width="30%" height="30%">
+<img src="/assets/maze2.png" width="30%" height="30%" alt="A procedurally generated maze example from Astro Maze.">
 The algorithm begins by searching the first reachable positions and adds them to a queue, ensuring to check against the explored set to avoid redundancy. It continues this process until the queue is empty or the goal is achieved.
 
 ```
@@ -50,7 +50,7 @@ private int mapSolution(){
     }
 ```
 
-<img src="/assets/maze3.png" width="30%" height="30%">
+<img src="/assets/maze3.png" width="30%" height="30%" alt="Another maze layout from Astro Maze showing wall placements.">
 In parallel, the algorithm's second part involves strategically placing walls in positions that are not reachable by the player. This technique enhances the overall map layout, ensuring a more engaging gameplay experience.
 
 
