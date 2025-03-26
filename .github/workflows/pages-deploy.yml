@@ -28,6 +28,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check build output
+        run: ls -la _site
+
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
