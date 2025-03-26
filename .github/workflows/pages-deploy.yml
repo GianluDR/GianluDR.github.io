@@ -28,10 +28,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check build output
-        run: ls -la _site
-
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -54,6 +50,9 @@ jobs:
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
+
+      - name: Check build output
+        run: ls -la _site
 
       - name: Test site
         run: |
