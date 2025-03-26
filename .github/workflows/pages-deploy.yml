@@ -15,7 +15,7 @@ on:
 permissions:
   actions: read
   contents: read
-  pages: write
+  pages: write   # Assicurati di avere i permessi giusti per la pubblicazione
   id-token: write
 
 # Allow one concurrent deployment
@@ -32,9 +32,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
@@ -72,10 +69,10 @@ jobs:
       - name: Enable GitHub Pages (first time only)
         run: gh api -X POST /repos/${{ github.repository }}/pages --silent
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}  
