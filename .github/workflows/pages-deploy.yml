@@ -51,9 +51,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Check build output
-        run: ls -la _site
-
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
@@ -64,6 +61,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3
+        with:
+          artifact_name: "github-pages"
 
   deploy:
     environment:
