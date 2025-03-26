@@ -19,7 +19,7 @@ image:
 **⏱︎Time frame:**  3 days
 **⚒︎ Engine:**  Unity(C#)  
 
-In this game, Argy, a diver spider, left his home in search of food supplies but was injured. Therefore, wanted to come back home to her partner, encountering some difficulties along the path.
+In this game, Argy, a diver spider, left his home in search of food supplies but was injured. Swim, avoid obstacles, manage oxygen by staying inside your bubble, and make your way back home.
 
 ### Swim
 This method handles the swimming mechanics for the player. It applies a force to the character's Rigidbody based on the player's input (both horizontal and vertical movement). The vertical swimming force is adjusted depending on whether the character is swimming up or down.
@@ -43,7 +43,7 @@ void Swim()
 ```
 
 ## What i learned
-This was my first game jam, a unique experience where you have to think differently—there’s no time to create everything, so you must keep it simple while still aiming for something fun, original, and engaging. We embraced this mindset by building on the idea of an underwater spider, creating a gameplay loop where you swim, avoid obstacles, manage oxygen by staying inside your bubble, and make your way back home.
+This was my first game jam, a unique experience where you have to think differently—there’s no time to create everything, so you must keep it simple while still aiming for something fun, original, and engaging. 
 
 ## More about...
 Build, source code and further insights can be found in the github repository [here](https://github.com/GianluDR/ProjectJam).
